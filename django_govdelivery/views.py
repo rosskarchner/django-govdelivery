@@ -15,5 +15,6 @@ def subscribe(request):
         gd.create_subscriber(email_address)
 
         codes = request.POST.getlist('code')
-        gd.set_subscriber_topics(email_address, codes)
-        return HttpResponse("subscription successful!")
+        gd.set_subscriber_topics(email_address, codes, insert=True)
+
+    return HttpResponse("subscription successful!")
