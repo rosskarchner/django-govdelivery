@@ -27,7 +27,7 @@ def extract_answers_from_request(request):
     answers=[]
     for param, value in request.POST.items():
         if param.startswith('questionid'):
-            question_id, answer_type = param.split('_')[1:]
+            question_id = param.split('_')[1]
             answers.append((question_id,value))
     return answers
 
