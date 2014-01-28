@@ -8,7 +8,7 @@ It currently provides a form handler that allows for subscription to an arbitrar
 
 <input type="hidden" name="code" value="SOME_TOPIC_CODE">
 <input type="hidden" name="code" value="ANOTHER_TOPIC_CODE">
-<input type="input" name="questionid_12345_free"/>
+<input type="input" name="questionid_12345"/>
 <input type="email" name="email" >
 <button>Sign up</button>
 </form>
