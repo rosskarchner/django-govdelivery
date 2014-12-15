@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urlsimport *
 
 
 urlpatterns = patterns('django_govdelivery.views',
